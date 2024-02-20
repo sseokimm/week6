@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#box {
+    position: relative;
+    background-color: violet;
+    margin: 20px auto;
+    width: 50%;
+    height: 200px;
+    display: none;
+
+}
+
+#participant-name {
+    color: lightblue; 
+}
+
+
+#reset {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+    cursor: pointer;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 100%; 
+    width: 100px;
+    height: 100px; 
+    line-height: 90px; 
+    text-align: center; 
+}
+
